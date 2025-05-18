@@ -1,0 +1,130 @@
+.regalos {
+  background-color: #f0f0ea;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.regalos-icon {
+  color: #cfa9be;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+.regalos-title {
+  /* font-family: "Georgia", serif; */
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.regalos-text {
+  font-size: 1rem;
+  color: #555;
+  max-width: 400px;
+  margin: 0 auto 1.5rem auto;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.regalos-btn {
+  padding: 0.5rem 1.2rem;
+  background-color: #cfa9be;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.regalos-btn:hover {
+  background-color: #cfa9be;
+}
+
+/* Modal */
+.regalos-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.regalos-modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  max-width: 90%;
+  color: #333;
+}
+
+.regalos-close {
+  margin-top: 1rem;
+  background-color: #ccc;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Animación de entrada */
+.regalos-modal-content {
+  animation: fadeInUp 0.4s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Caja de ALIAS */
+.alias-box {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 12px;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alias-label {
+  font-weight: bold;
+  color: #cfa9be;
+  font-size: 1rem;
+}
+
+.alias-text {
+  /* font-family: monospace; */
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.alias-copy {
+  font-size: 0.9rem;
+  background-color: #cfa9be;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.alias-copy:hover {
+  background-color: #cfa9be;
+}

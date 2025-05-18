@@ -1,0 +1,93 @@
+.rsvp-section {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #fdfdfb;
+}
+
+.rsvp-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.rsvp-icon {
+  color: #cfa9be;
+  margin-bottom: 0.5rem;
+}
+
+.rsvp-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.rsvp-section p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.rsvp-select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.rsvp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.rsvp-persona {
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.rsvp-persona h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #cfa9be;
+}
+
+.rsvp-persona input,
+.rsvp-dieta-select {
+  display: block;
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.rsvp-mensaje {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  min-height: 100px;
+  font-family: inherit;
+  color: #333;
+}
+
+.rsvp-boton {
+  background-color: #cfa9be;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rsvp-boton:hover {
+  background-color: #cfa9be;
+}

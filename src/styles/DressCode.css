@@ -1,0 +1,75 @@
+.dresscode {
+  background-color: #f0f0ea;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.dresscode-icon {
+  color: #cfa9be;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+.dresscode-title {
+  /* font-family: "Georgia", serif; */
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.dresscode-subtitle {
+  /* font-family: "Georgia", serif; */
+  font-style: italic;
+  font-size: 1.3rem;
+  color: #cfa9be;
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.dresscode-btn {
+  padding: 0.5rem 1.2rem;
+  background-color: #cfa9be;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dresscode-btn:hover {
+  background-color: #b293a4;
+}
+
+/* Modal */
+.dresscode-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.dresscode-modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  max-width: 90%;
+  color: #333;
+}
+
+.dresscode-close {
+  margin-top: 1rem;
+  background-color: #cfa9be;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.hashtag-section {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #fdfdfb;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hashtag-icon {
+  color: #cfa9be;
+  margin-bottom: 1rem;
+}
+
+.hashtag-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.hashtag-section p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.hashtag-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #cfa9be;
+}

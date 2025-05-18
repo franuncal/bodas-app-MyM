@@ -1,0 +1,25 @@
+.slider-fotos {
+  margin: 2rem 0;
+  padding: 0 1rem;
+}
+
+/* Envoltorio para aplicar aspecto cuadrado si querés */
+.slider-img-wrapper {
+  padding: 0 4px; /* espacio entre imágenes */
+}
+
+.slider-img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Altura adaptada en tablets */
+@media (max-width: 768px) {
+  .slider-img {
+    height: 250px;
+  }
+}

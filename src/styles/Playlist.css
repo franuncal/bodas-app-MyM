@@ -1,0 +1,33 @@
+.playlist-section {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  background-color: #f6f6f6; /* o algo con tu paleta verde oliva si querés */
+}
+
+.playlist-title {
+  font-size: 1.8rem;
+  /* font-weight: bold; */
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.playlist-subtitle {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.playlist-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #cfa9be; /* verde oliva */
+  color: #fff;
+  border-radius: 30px;
+  /* font-weight: bold; */
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.playlist-button:hover {
+  background-color: #cfa9be;
+}

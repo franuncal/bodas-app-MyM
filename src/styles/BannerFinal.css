@@ -1,0 +1,18 @@
+.banner-final {
+  background-color: #cfa9be;
+  color: white;
+  text-align: center;
+  padding: 2.5rem 1rem;
+}
+
+.banner-final h2 {
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .banner-final h2 {
+    font-size: 1.4rem;
+  }
+}

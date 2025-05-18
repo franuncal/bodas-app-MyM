@@ -1,0 +1,30 @@
+.footer {
+  background-color: #f2f2f2;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  color: #333;
+  font-size: 0.9rem;
+  border-top: 1px solid #ddd;
+}
+
+.footer-copy {
+  margin: 0;
+  font-weight: 500;
+}
+
+.footer-icons {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.footer-icons a {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #6b8e23; /* Verde oliva para mantener la identidad */
+}
