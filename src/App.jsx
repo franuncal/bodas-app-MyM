@@ -13,19 +13,19 @@ import BannerFinal from "./components/BannerFinal";
 import Footer from "./components/Footer";
 
 const imagenes = [
-  "/img/galeria01.jpg",
-  "/img/galeria02.jpg",
-  "/img/galeria03.jpg",
-  "/img/galeria04.jpg",
-  "/img/galeria12.jpg",
-  "/img/galeria13.jpg",
-  "/img/galeria14.JPEG",
+  "/img/g01.webp",
+  "/img/g02.webp",
+  "/img/g03.webp",
+  "/img/g04.webp",
+  "/img/g05.webp",
+  "/img/g06.webp",
+  "/img/g07.webp",
 ];
 
 function App() {
   return (
     <div>
-      <Hero imageUrl="/img/galeria01.jpg" />
+      <Hero imageUrl="/img/g01.webp" />
       <Countdown targetDate="2025-12-20T16:00:00" />
       <Frase texto={"El amor no mira con los ojos, sino con el alma."} />
       <InfoEvento />
