@@ -1,13 +1,14 @@
 .countdown {
   text-align: center;
   padding: 2rem 1rem;
-  background-color: #f4f4f0;
+  background-color: #f4f4f0; /* Color claro neutral que se puede mantener o parametrizar si querés */
+  font-family: var(--font-primary);
 }
 
 .countdown-title {
   font-size: 2rem;
   margin-bottom: 1.5rem;
-  color: #cfa9be;
+  color: var(--primary-color);
   font-weight: 500;
 }
 
@@ -27,18 +28,17 @@
 
 .countdown-timer span {
   font-size: 2.2rem;
-  color: #cfa9be;
+  color: var(--primary-color);
 }
 
 .countdown-timer small {
   font-size: 0.9rem;
-  color: #888;
+  color: #888; /* Podés mover esto a una variable si necesitás más control */
 }
 
-/* Separador ":" */
 .countdown-timer .separator {
   font-size: 2rem;
-  color: #cfa9be;
+  color: var(--primary-color);
   padding: 0 0.25rem;
   font-weight: bold;
 }

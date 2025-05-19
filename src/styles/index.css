@@ -1,7 +1,12 @@
-/* Reset básico y base mobile first */
+/* ----------------------------------------------------
+   🔠 IMPORTACIÓN DE FUENTES
+---------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap");
 
+/* ----------------------------------------------------
+   🔄 RESET + BASE MOBILE FIRST
+---------------------------------------------------- */
 * {
   margin: 0;
   padding: 0;
@@ -10,14 +15,19 @@
 
 html,
 body {
-  font-family: "Antic Didone", sans-serif;
+  font-family: var(--font-primary);
   font-size: 16px;
-  background-color: #fff;
-  color: #333;
+  background-color: var(--background-color);
+  color: var(--text-color);
   scroll-behavior: smooth;
   line-height: 1.5;
   width: 100%;
   height: 100%;
+}
+
+body,
+section {
+  background-color: var(--background-color);
 }
 
 img {
@@ -47,9 +57,75 @@ ul {
   padding-left: 0;
 }
 
-/* Utilidades básicas */
+/* ----------------------------------------------------
+   🎨 VARIABLES GLOBALES
+---------------------------------------------------- */
+:root {
+  /* --primary-color: #cfa9be;  */
+  --primary-color: #cfa9be;
+  --text-color: #333;
+  --background-color: #f4f4f4; /* Fondo general */
+  --accent-color: #9ea76f;
+  --font-primary: "Nunito Sans", sans-serif;
+  --font-secondary: "Antic Didone", serif;
+  --shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  --radius: 1rem;
+  --transition: all 0.3s ease-in-out;
+}
+
+/* ----------------------------------------------------
+   🧰 UTILIDADES BÁSICAS
+---------------------------------------------------- */
 .container {
   padding: 1rem;
   max-width: 640px;
   margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.shadow {
+  box-shadow: var(--shadow);
+}
+
+.rounded {
+  border-radius: var(--radius);
+}
+
+/* Texto común: todos los títulos y párrafos iguales */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+/* Colores y estilos de botones */
+.bg-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  filter: brightness(0.85);
 }

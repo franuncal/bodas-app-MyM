@@ -13,7 +13,7 @@ const Regalos = () => {
         Lo importante es que compartas este día con nosotros, pero si querés
         hacernos un regalo, ¡te lo agradecemos mucho!
       </p>
-      <button className="regalos-btn" onClick={() => setIsOpen(true)}>
+      <button className="btn" onClick={() => setIsOpen(true)}>
         Regalar
       </button>
 
@@ -25,7 +25,7 @@ const Regalos = () => {
               <span className="alias-label">ALIAS:</span>
               <span className="alias-text">BODAMARIAYMATIAS</span>
               <button
-                className="alias-copy"
+                className="btn"
                 onClick={() => {
                   navigator.clipboard.writeText("FRANUNCAL");
                   alert("Alias copiado al portapapeles");
@@ -35,7 +35,7 @@ const Regalos = () => {
               </button>
             </div>
             <p>¡Muchas gracias por tu amor!</p>
-            <button onClick={() => setIsOpen(false)} className="regalos-close">
+            <button onClick={() => setIsOpen(false)} className="btn">
               Cerrar
             </button>
           </div>

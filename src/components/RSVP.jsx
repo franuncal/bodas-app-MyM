@@ -95,7 +95,7 @@ const RSVP = () => {
             className="rsvp-mensaje"
           />
 
-          <button type="submit" className="rsvp-boton">
+          <button type="submit" className="btn">
             Confirmar asistencia
           </button>
         </form>

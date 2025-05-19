@@ -10,7 +10,7 @@ const DressCode = () => {
       <Gem className="dresscode-icon" />
       <h2 className="dresscode-title">DRESS CODE</h2>
       <p className="dresscode-subtitle">Elegante</p>
-      <button className="dresscode-btn" onClick={() => setIsOpen(true)}>
+      <button className="btn" onClick={() => setIsOpen(true)}>
         Consejos de vestimenta
       </button>
 
@@ -25,10 +25,7 @@ const DressCode = () => {
               <strong>Mujeres:</strong> Vestido de fiesta, largo o midi, o
               conjunto elegante.
             </p>
-            <button
-              onClick={() => setIsOpen(false)}
-              className="dresscode-close"
-            >
+            <button onClick={() => setIsOpen(false)} className="btn">
               Cerrar
             </button>
           </div>

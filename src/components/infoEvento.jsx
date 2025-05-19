@@ -22,7 +22,7 @@ const InfoEvento = () => {
           <p className="info-texto">ESTANCIA EL RECUERDO</p>
           <a
             href="https://maps.app.goo.gl/RTVosUDKcYe3FhJh7"
-            className="btn-maps"
+            className="btn"
             target="_blank"
             rel="noopener noreferrer"
           >

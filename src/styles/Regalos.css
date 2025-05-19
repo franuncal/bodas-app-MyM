@@ -1,26 +1,26 @@
 .regalos {
-  background-color: #f0f0ea;
+  background-color: var(--background-light);
   text-align: center;
   padding: 3rem 1rem;
 }
 
 .regalos-icon {
-  color: #cfa9be;
+  color: var(--primary-color);
   width: 40px;
   height: 40px;
   margin-bottom: 1rem;
 }
 
 .regalos-title {
-  /* font-family: "Georgia", serif; */
   font-size: 1.6rem;
-  color: #333;
+  color: var(--text-color);
   margin-bottom: 1rem;
+  /* font-family: "Georgia", serif; */
 }
 
 .regalos-text {
   font-size: 1rem;
-  color: #555;
+  color: var(--text-muted);
   max-width: 400px;
   margin: 0 auto 1.5rem auto;
   font-style: italic;
@@ -29,17 +29,17 @@
 
 .regalos-btn {
   padding: 0.5rem 1.2rem;
-  background-color: #cfa9be;
+  background-color: var(--primary-color);
   color: white;
   border: none;
   border-radius: 999px;
   font-size: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: var(--transition);
 }
 
 .regalos-btn:hover {
-  background-color: #cfa9be;
+  background-color: var(--primary-color-hover);
 }
 
 /* Modal */
@@ -62,7 +62,8 @@
   border-radius: 1rem;
   text-align: center;
   max-width: 90%;
-  color: #333;
+  color: var(--text-color);
+  animation: fadeInUp 0.4s ease;
 }
 
 .regalos-close {
@@ -75,10 +76,6 @@
 }
 
 /* Animación de entrada */
-.regalos-modal-content {
-  animation: fadeInUp 0.4s ease;
-}
-
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -104,27 +101,28 @@
 
 .alias-label {
   font-weight: bold;
-  color: #cfa9be;
+  color: var(--primary-color);
   font-size: 1rem;
 }
 
 .alias-text {
-  /* font-family: monospace; */
   font-size: 1.2rem;
-  color: #333;
+  color: var(--text-color);
   margin: 0.5rem 0;
+  /* font-family: monospace; */
 }
 
 .alias-copy {
   font-size: 0.9rem;
-  background-color: #cfa9be;
+  background-color: var(--primary-color);
   color: white;
   border: none;
   padding: 0.4rem 0.8rem;
   border-radius: 6px;
   cursor: pointer;
+  transition: var(--transition);
 }
 
 .alias-copy:hover {
-  background-color: #cfa9be;
+  background-color: var(--primary-color-hover);
 }

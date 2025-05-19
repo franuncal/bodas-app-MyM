@@ -1,7 +1,7 @@
 .rsvp-section {
   text-align: center;
   padding: 2rem 1rem;
-  background-color: #fdfdfb;
+  background-color: var(--background-light);
 }
 
 .rsvp-container {
@@ -10,19 +10,20 @@
 }
 
 .rsvp-icon {
-  color: #cfa9be;
+  color: var(--primary-color);
   margin-bottom: 0.5rem;
 }
 
 .rsvp-section h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #333;
+  color: var(--text-color);
 }
 
 .rsvp-section p {
   font-size: 1rem;
   margin-bottom: 0.5rem;
+  color: var(--text-muted);
 }
 
 .rsvp-select {
@@ -40,7 +41,7 @@
 }
 
 .rsvp-persona {
-  background: #fff;
+  background: white;
   padding: 1rem;
   border: 1px solid #ddd;
   border-radius: 12px;
@@ -51,7 +52,7 @@
 .rsvp-persona h4 {
   margin-bottom: 0.5rem;
   font-size: 1rem;
-  color: #cfa9be;
+  color: var(--primary-color);
 }
 
 .rsvp-persona input,
@@ -74,20 +75,20 @@
   resize: vertical;
   min-height: 100px;
   font-family: inherit;
-  color: #333;
+  color: var(--text-color);
 }
 
 .rsvp-boton {
-  background-color: #cfa9be;
-  color: #fff;
+  background-color: var(--primary-color);
+  color: white;
   padding: 0.8rem 1.5rem;
   border: none;
   border-radius: 8px;
   font-size: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: var(--transition);
 }
 
 .rsvp-boton:hover {
-  background-color: #cfa9be;
+  background-color: var(--primary-color-hover);
 }

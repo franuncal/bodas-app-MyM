@@ -4,7 +4,10 @@ import "../styles/BannerFinal.css";
 const BannerFinal = () => {
   return (
     <section className="banner-final">
-      <h2>Mari & Mati</h2>
+      <h2>
+        Los Esperamos! <br />
+        Mari & Mati
+      </h2>
     </section>
   );
 };

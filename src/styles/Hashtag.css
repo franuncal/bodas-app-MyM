@@ -1,30 +1,30 @@
 .hashtag-section {
   text-align: center;
   padding: 2rem 1rem;
-  background-color: #fdfdfb;
+  background-color: #fdfdfb; /* Podés crear variable si querés */
   max-width: 600px;
   margin: 0 auto;
+  font-family: var(--font-primary);
 }
 
 .hashtag-icon {
-  color: #cfa9be;
+  color: var(--primary-color);
   margin-bottom: 1rem;
 }
 
 .hashtag-section h2 {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   margin-bottom: 0.5rem;
-  color: #333;
+  color: var(--text-color);
 }
 
 .hashtag-section p {
   font-size: 1rem;
   margin-bottom: 0.5rem;
-  color: #444;
+  color: #444; /* Podrías pasarlo a variable si necesitas */
 }
 
 .hashtag-text {
   font-size: 1.2rem;
-  font-weight: bold;
-  color: #cfa9be;
+  color: var(--primary-color);
 }

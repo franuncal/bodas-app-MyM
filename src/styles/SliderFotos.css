@@ -3,7 +3,6 @@
   padding: 0 1rem;
 }
 
-/* Envoltorio para aplicar aspecto cuadrado si querés */
 .slider-img-wrapper {
   padding: 0 4px; /* espacio entre imágenes */
 }
@@ -13,7 +12,7 @@
   height: 320px;
   object-fit: cover;
   border-radius: 12px;
-  transition: all 0.3s ease;
+  transition: var(--transition);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 

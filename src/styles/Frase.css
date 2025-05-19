@@ -1,8 +1,9 @@
 .frase {
-  background-color: #cfa9be;
+  background-color: var(--primary-color);
   padding: 3rem 1rem;
   text-align: center;
-  color: white;
+  color: #fff;
+  font-family: var(--font-secondary);
 }
 
 .frase-texto {
@@ -16,6 +17,6 @@
 .frase-linea {
   width: 80%;
   height: 1px;
-  background-color: white;
+  background-color: #fff;
   margin: 0 auto;
 }

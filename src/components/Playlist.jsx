@@ -12,7 +12,7 @@ const Playlist = () => {
         href="https://forms.gle/tu-enlace-aqui"
         target="_blank"
         rel="noopener noreferrer"
-        className="playlist-button"
+        className="btn"
       >
         AGREGÁ CANCIONES
       </a>
